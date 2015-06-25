@@ -1,0 +1,257 @@
+/* Header/General Styles */
+
+
+header {
+	background-color: #000;
+	text-align: center;
+	font-family: cursive;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 70px;
+	font-color: grey;
+}
+
+section .section-head {
+	text-align: center;
+	background-color: rgba(0,0,0,0.4);
+	padding: 25px 0;
+	color: #fff;
+	font-style: italic;
+	letter-spacing: 1px;
+}
+
+.container .content-container {
+	margin: 0px 155px;
+	background-color: #fff;
+	padding: 0 60px 20px;
+}
+
+/* Nav */
+
+.navbar {
+	background-color: #f8f8f8;
+	border: none;
+	text-align: center;
+	padding: 10px 0;
+}
+.navbar ul {
+	list-style: none;
+}
+.navbar ul > li {
+	display: inline-block !important;
+}
+.navbar li a {
+	text-transform: uppercase;
+	font-size: 16px;	
+	color: #000;
+	display: inline-block;
+}
+
+/* The Mission */
+
+.mission .bk-img {
+	background-image: url('images/bk-img.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h6 {
+	font-style: italic;
+	text-align: center;
+}
+
+.bk-img .title-holder {
+	padding: 380px 170px 0;
+}
+
+.white {
+	color: #fff;
+	background-color: rgba(0,0,0,.5);
+	padding: 20px 0;
+
+}
+.black {
+	color: #000;
+	background-color: rgba(255,255,255,.5);
+	padding: 20px 0;
+
+}
+
+.container h5 {
+	color: #000;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+
+.content-container img {
+	margin: 0px 0px 30px;
+}
+
+.content-container .circles {
+	margin-left: 100px;
+	box-shadow: 2px 2px 7px;
+}
+
+.img-overflow{
+	display: block;
+	max-width: 940px;
+}
+
+/* Packages */
+.wrapper {
+	padding: 0 50px;
+}
+
+.packages .content-container {
+	position: relative;
+	top: -180px;
+}
+
+/* Founder */
+
+.founder .bk-img {
+	background-image: url('images/bk-img.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.founder .title-holder {
+	padding: 380px 170px 0;
+
+}
+
+.founder .white {
+	margin-bottom: 50px;
+}
+
+.founder .content-container {
+	margin-top: -50px;
+}
+
+/* Gossip */
+
+/* Ducky.tv */
+
+.ducky-tv .content {
+	display: flex;
+	flex-direction :row;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	margin-top: 10px;
+	justify-content: space-between;
+}
+
+.ducky-tv .content .video {
+	width: 195.5px;
+	height: 228px;
+}
+
+.ducky-tv .video {
+	color: #000;
+}
+
+.ducky-tv .video .vid-img{
+	width: 195.5px;
+	height: 200px;
+	background-color: gray;
+
+}
+
+.ducky-tv .video .vid-title {
+	margin-top: 15px;
+}
+
+.ducky-tv .video .vid-title p{
+	margin: 0;
+
+}
+
+/* Contact Us */
+.contact-us {
+	margin-top: 150px;
+}
+.contact-us .bk-img {
+	background-image: url('images/bk-img.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.contact-us .black {
+	padding: 20px 60px;
+	padding-bottom: 90px;
+}
+
+.contact-us input {
+	display: inline-block;
+	border: 1px solid #666;
+	color: #000;
+	width: 67%;
+	padding: 5px 13px;
+}
+
+.info {
+	display: flex;
+	padding-left: 40px;
+}
+
+.info .arrow-hold {
+	background-color: #666;
+	height: 33px;
+	display: inline-block;
+	cursor: pointer;
+	width: 29px;
+	padding: 4px 6px 0px 0px;
+}
+
+.info .arrow-hold span {
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	transform: rotate(-43deg);
+	vertical-align: middle;
+
+}
+
+.contact-us .content-container {
+	text-align: center;
+	padding: 50px 80px 20px;
+}
+
+/* Footer */
+.footer {
+	padding: 40px 60px;
+}
+.footer .container {
+	display: flex;
+	margin-left: 60px;
+}
+
+.footer h2 {
+	font-family: cursive;
+}
+
+.footer .social {
+	padding-top: 20px;
+	margin-left: 150px;
+}
+
+.social p {
+	margin-bottom: 0;
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.social img {
+	padding-left: 1px;
+	display: inline-block;
+}
