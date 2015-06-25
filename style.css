@@ -233,7 +233,6 @@ h6 {
 }
 .footer .container {
 	display: flex;
-	margin-left: 60px;
 }
 
 .footer h2 {
@@ -242,7 +241,7 @@ h6 {
 
 .footer .social {
 	padding-top: 20px;
-	margin-left: 180px;
+	margin-left: 150px;
 }
 
 .social p {
